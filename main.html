@@ -1,0 +1,755 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Yelp</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  </head>
+  <body class="main-page">
+    <!--   main-header start's here -->
+    <header class="main-header">
+      <div class="main-header__wrapper">
+        <div class="nav-wrapper">
+          <nav class="main-nav">
+        <ul class="main-list">
+          <li class="main-list__item"><a href="javascript:void(0);" class="main-list__link">Write a Review</a></li>
+          <li class="main-list__item"><a href="javascript:void(0);" class="main-list__link">Events</a></li>
+          <li class="main-list__item"><a href="javascript:void(0);" class="main-list__link">Talk</a></li>
+        </ul>
+      </nav>
+          <div class="logon-box">
+        <ul class="logon-list">
+          <li class="logon-list__item"><a href="" class="logon-list__link Login">Log In</a></li>
+          <li class="logon-list__item"><a href="" class="logon-list__link SignUp">Sign Up</a></li>
+        </ul>
+      </div>
+        </div>
+        <div class="main-logo">
+          <a href="javascript:void(0);"><img src="https://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/c3484759c57a/assets/img/logos/logo_desktop_xlarge.png" alt="yelp logo" width="160px" height="80px"/></a>
+        </div>
+        <!--       search box start's here -->
+        <div class="search">
+          <div class="left-side">
+            <input type="text" placeholder="tacos, cheap dinner, Max's" class="field request">
+            <div class="field-wrapper">
+                <span class="field-title find">Find</span>
+            </div>
+            <ul class="left-side__sublist">
+              <li class="left-side__subitem"><a href="#" class="left-side__sublink restaraunts first">Restaurants</a></li>
+              <li class="left-side__subitem"><a href="#" class="left-side__sublink bar">Breakfast & Brunch</a></li>
+              <li class="left-side__subitem"><a href="#" class="left-side__sublink coffee">Coffee & tea</a></li>
+              <li class="left-side__subitem"><a href="#" class="left-side__sublink delivery">Delivery</a></li>
+              <li class="left-side__subitem"><a href="#" class="left-side__sublink takeout">Takeout</a></li>
+              <li class="left-side__subitem"><a href="#" class="left-side__sublink reservations">Reservations</a></li>
+            </ul>
+          </div>
+          <div class="right-side">
+            <input type="text" placeholder="San Francisco, CA" class="field location">            
+            <div class="field-wrapper">
+              <span class="field-title near">Near</span>
+            </div>
+            <ul class="right-side__sublist">
+              <li class="right-side__subitem"><a href="javascript.void(0);" class="right-side__sublink current">Current Location</a></li>
+              <li class="right-side__subitem"><a href="javascript.void(0);" class="right-side__sublink state">San Francisco</a></li>
+            </ul>
+          </div>
+          <a href="javascript.void(0);" class="search-button">Search</a>
+        </div>
+        <!--       /search box end's here -->
+        <!--       categories box start's here -->
+        <div class="categories">
+        <ul class="categories-list">
+          <li class="categories-list__item">
+            <img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/svg_icons/aafb83c8f161/assets/sprite.png" alt="" width="18px" height="18px" class="categories-list__img restaurants-icon"/>
+            <a href="javascript:void();" class="categories-list__link">Restaurants</a>
+          </li>
+          <li class="categories-list__item">
+            <img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/svg_icons/aafb83c8f161/assets/sprite.png" alt="" width="18px" height="18px" class="categories-list__img nightlife-icon"/>
+            <a href="javascript:void();" class="categories-list__link">Nightlife</a>
+          </li>
+          <li class="categories-list__item">
+            <img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/svg_icons/aafb83c8f161/assets/sprite.png" alt="" width="18px" height="18px" class="categories-list__img services-icon"/>
+            <a href="javascript:void();" class="categories-list__link">Services</a>
+          </li>
+          <li class="categories-list__item">
+            <img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/svg_icons/aafb83c8f161/assets/sprite.png" alt="" width="18px" height="18px" class="categories-list__img delivery-icon"/>
+            <a href="javascript:void();" class="categories-list__link">Delivery</a>
+          </li>
+        </ul>
+      </div>
+        <!--       /categories box end's here -->
+        <!--       copyright-photo-block start's here -->
+        <div class="copyright-block photo">
+          <a href="javascript:void(0)"><img src="https://s3-media3.fl.yelpcdn.com/photo/DglwW9r60agyxk42ZJdCYw/30s.jpg" width="30px" height="30px" class="img-box" alt="author photo profile"/></a>
+          <small>Photo by <a href="javascript:void(0);">Asim F.</a></small>
+        </div>
+        <!--       /copyright-photo-block end's here -->
+      </div>
+    </header>
+    <!--   /main-header end's here -->
+    <!--   main-content start's here -->
+    <main class="main-content">
+      <div class="main-wrapper">
+        <h2 class="main-content__heading">Yelp San Francisco</h2>
+        <!--   main-content__menu San-Francisco start's here -->
+        <nav class="main-content__menu San-Francisco">
+          <ul class="menu-list">
+            <li class="menu-list__item"><a href="javascript:void(0);" class="menu-list__link">New York</a></li>
+            <li class="menu-list__item"><a href="javascript:void(0);" class="menu-list__link">San Jose</a></li>
+            <li class="menu-list__item"><a href="javascript:void(0);" class="menu-list__link">Los Angeles</a></li>
+            <li class="menu-list__item"><a href="javascript:void(0);" class="menu-list__link">Chicago</a></li>
+            <li class="menu-list__item"><a href="javascript:void(0);" class="menu-list__link">Palo Alto</a></li>
+            <li class="menu-list__item"><a href="javascript:void(0);" class="menu-list__link">Oakland</a></li>
+            <li class="menu-list__item"><a href="javascript:void(0);" class="menu-list__link more-cities">More Cities</a></li>
+          </ul>
+        </nav>
+        <!--   /main-content__menu San-Francisco end's here -->
+        <h3 class="main-content__subheading">Hot & New Businesses</h3>
+        <!--   restaurants start's here -->
+        <section class="restaurants">
+          <div class="restaurants__row">
+            <div class="restaurants__col">
+              <div class="card__wrapper">
+                <div class="card__photo">
+                  <a href="javascript:void(0)" class="img-link"><img src="https://s3-media2.fl.yelpcdn.com/bphoto/oPKEl4cw0Mw6gCFIg-3dPA/l.jpg" alt="Woods Beer" width="298px" height="180px"/></a>
+                </div>
+                  <div class="restaurants-container">
+                    <span class="restaurants__name"><a href="javascript:void(0);" class="restaurants__name-link">Woods Beer</a></span>
+                    <div class="restaurants__rating">
+                      <span class="restaurants__rating__star four-stars">Rating</span>
+                      <span class="review-counter">12 reviews</span>
+                    </div>
+                    <div class="restaurants-info">
+                      <span class="restaurants-info__cost">$$</span>
+                      <span class="restaurants-info__food">Food Trucks, Poke, Vegeterian</span>
+                  </div>
+                  <div class="restaurants-timetable">
+                    <span class="work-days">Opened 7 weeks ago</span>
+                 </div>
+              </div>
+            </div>   
+            </div>
+            <div class="restaurants__col">
+              <div class="card__wrapper">
+                <div class="card__photo">
+                  <a href="javascript:void(0)" class="img-link"><img src="https://s3-media4.fl.yelpcdn.com/bphoto/K0w5sjO5FyrWicpYJF3hnQ/l.jpg" alt="Brown Sugar Factory" width="298px" height="180px"/></a>
+                </div>
+                  <div class="restaurants-container">
+                    <span class="restaurants__name"><a href="javascript:void(0);" class="restaurants__name-link">Brown Sugar Factory</a></span>
+                    <div class="restaurants__rating">
+                      <span class="restaurants__rating__star four-stars">Rating</span>
+                      <span class="review-counter">19 reviews</span>
+                    </div>
+                    <div class="restaurants-info">
+                      <span class="restaurants-info__cost">$$</span>
+                      <span class="restaurants-info__food">Breakfast & Brunch, Diners, Asian F..</span>
+                  </div>
+                  <div class="restaurants-timetable">
+                    <span class="work-days">Opened 2 weeks ago</span>
+                 </div>
+              </div>
+            </div>   
+            </div>
+            <div class="restaurants__col">
+              <div class="card__wrapper">
+                <div class="card__photo">
+                  <a href="javascript:void(0)" class="img-link"><img src="https://s3-media2.fl.yelpcdn.com/bphoto/Tabpyh7Ip323dc4TZmB3IA/l.jpg" alt="Brown Sugar Factory" width="298px" height="180px"/></a>
+                </div>
+                  <div class="restaurants-container">
+                    <span class="restaurants__name"><a href="javascript:void(0);" class="restaurants__name-link">E Tea</a></span>
+                    <div class="restaurants__rating">
+                      <span class="restaurants__rating__star four-stars">Rating</span>
+                      <span class="review-counter">10 reviews</span>
+                    </div>
+                    <div class="restaurants-info">
+                      <span class="restaurants-info__cost">$$</span>
+                      <span class="restaurants-info__food">Bubble Tea</span>
+                  </div>
+                  <div class="restaurants-timetable">
+                    <span class="work-days">Opened 2 weeks ago</span>
+                 </div>
+              </div>
+            </div>   
+            </div>
+          </div>
+            </div>
+        </section>
+        <div class="menu-category__more">
+          <a href="javascript:void(0);" class="menu-category__link">See more hot and new businesses</a>
+        </div>
+        <!--   /menu-category San-Francisco end's here -->
+        <!--   additional-info start's here -->
+        <section class="additional-info">
+          <div class="local-yelp">
+            <h3>The Local Yelp</h3>
+            <div class="local-yelp__wrapper">
+              <div class="local-yelp__img">
+                <img src="https://s3-media4.fl.yelpcdn.com/wphoto/tZGDWYY9j6a8H4BgQIxhIA/h.jpg" class="center" alt="San Francisco Got Seoul" width="628px" height="180px"/>
+              </div>
+              <div class="local-yelp__content">
+                <h4><a href="javascript:void(0);">San Francisco's Got Seoul</a></h4>
+                <p>
+                  From barbecue to bibimbap to banchan and back again, San Francisco's sweet on Eastern treats. 
+                  This week we're kickin' it Korean-style with these fine joints.
+                </p>
+                <small>The Local Yelp</small>
+              </div>
+              <div class="local-yelp__more gap">
+                <a class="gap" href="javascript:void(0);">See more</a>
+              </div>
+            </div>
+          </div>
+          <div class="yelp-events">
+            <h3>Official Yelp Event</h3>
+            <div class="yelp-events__wrapper">
+              <div class="yelp-events__img">
+                <img src="https://s3-media1.fl.yelpcdn.com/ephoto/qgs1WvhuDOM5H8lg5Cxtrw/300s.jpg" alt="Footlose on Fillmore" width="297.98px" height="180px"/>
+              </div>
+              <div class="yelp-events__content">
+                <h4><a href="javascript:void(0);">Yelp Gets Footloose on Fillmore</a></h4>
+                <p>Ready to "Get Footloose on Fillmore?!" Great, all you need to do is RSVP here a</p>
+                <small>Sat, Apr 29, 1:00 pm - 5:00 pm</small>                
+              </div>
+              <div class="yelp-events__all gap">
+                <a class="gap" href="javascript:void(0);">See all events</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+        <!--   /additional-info end's here -->
+        <!--   category-businesses start's here -->
+        <section class="category-businesses">
+          <div class="category-wrapper">
+            <div class="category-heading-wrapper">
+              <h2>Browse Businesses by Category</h2>
+            </div>
+            <div class="category-businesses__row">
+              <a href="javascript:void(0);" class="category-businesses__col">
+                <img src="https://s3-media1.fl.yelpcdn.com/assets/srv0/homepage/831d6d5efb37/assets/img/categories/72x72_restaurants@2x.png" alt="shoping-icon" width="72px" height="72px"/>
+                <span class="category-businesses__label">Restaurants</span>
+              </a>
+              <a href="javascript:void(0);" class="category-businesses__col">
+                <img src="https://s3-media3.fl.yelpcdn.com/assets/srv0/homepage/6823e40b57ed/assets/img/categories/72x72_shopping.png" alt="shoping-icon" width="72px" height="72px"/>
+                <span class="category-businesses__label">Shoping</span>
+              </a>
+              <a href="javascript:void(0);" class="category-businesses__col">
+                <img src="https://s3-media1.fl.yelpcdn.com/assets/srv0/homepage/4273a4c2d1b0/assets/img/categories/72x72_nightlife.png" alt="nightlife-icon" width="72px" height="72px"/>
+                <span class="category-businesses__label">Nightlife</span>
+              </a>
+              <a href="javascript:void(0);" class="category-businesses__col">
+                <img src="https://s3-media3.fl.yelpcdn.com/assets/srv0/homepage/bc48d3d048a1/assets/img/categories/72x72_active_life.png" alt="active-life-icon" width="72px" height="72px"/>
+                <span class="category-businesses__label">Active Life</span>
+              </a>
+            </div>
+            <div class="category-businesses__row">
+              <a href="javascript:void(0);" class="category-businesses__col">
+                <img src="https://s3-media1.fl.yelpcdn.com/assets/srv0/homepage/8fddc8643935/assets/img/categories/72x72_beauty.png" alt="beauty-icon" width="72px" height="72px"/>
+                <span class="category-businesses__label">Beauty & Spas</span>
+              </a>
+              <a href="javascript:void(0);" class="category-businesses__col">
+                <img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/homepage/927fd53140d1/assets/img/categories/72x72_automotive.png" alt="automotive-icon" width="72px" height="72px"/>
+                <span class="category-businesses__label">Automotive</span>
+              </a>
+              <a href="javascript:void(0);" class="category-businesses__col">
+                <img src="https://s3-media1.fl.yelpcdn.com/assets/srv0/homepage/04c2acbc7a13/assets/img/categories/72x72_home_services.png" alt="services-icon" width="72px" height="72px"/>
+                <span class="category-businesses__label">Home Services</span>
+              </a>
+              <a href="javascript:void(0);" class="category-businesses__col">
+                <img src="https://s3-media3.fl.yelpcdn.com/assets/srv0/homepage/f36a7f7d42f8/assets/img/categories/72x72_more_categories.png" alt="more-categories-icon" width="72px" height="72px"/>
+                <span class="category-businesses__label">More categories</span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!--   /category-businesses end's here -->
+        <!--   helpful-info start's here -->
+        <section class="helpful-info">
+          <div class="helpful-info__wrapper">            
+            <div class="reviews">
+              <h3 class="helpful-info__heading">Review of the Day</h3>
+              <div class="reviews__row_wrapper">
+                <div class="reviews__row profile-details">
+                  <div class="img-container">
+                    <img src="https://s3-media4.fl.yelpcdn.com/photo/2TKfhXHp0PjifgIE700Y5w/60s.jpg" width="60px" height="60px" alt="profile photo" />
+                  </div>
+                  <div class="stat-container">
+                    <span class="profile-name"><a href="javascript:void(0);">Merica S.</a></span>
+                    <span class="feedback-count">77</span>
+                    <span class="likes-count">222</span>
+                    <span class="titul-name"><a href="javascript:void(0);">Elite'17</a></span>
+                    <p>Wrote a review for <a href="javascript:void(0);">Foreign Cinema</a></p>
+                  </div>
+                </div>
+                <div class="reviews__row review-of-the-day">
+                  <p>Review of the Day</p>
+                </div>
+                <div class="restaurants__rating">
+                    <div class="restaurants__rating__star five-stars">5 stars rating</div>
+                    <span class="restaurants__rating date">12/19/2016</span>
+                </div>
+                <p>Many thanks to Ben for putting together a great event (my first in 2017 as a goldee™) and to everyone at A15 for hosting and providing us with some excellent food and drinks. It was really interesting to try Indian-inspired food whilst leaving behind ye ol' bread and curry deal. I mean, I can't think of a time where I have experienced that! The chef and co-owner were both super-friendly during the event, which was ...<a href="javascript:void(0);">Continue reading</a></p>
+              </div>
+            </div>            
+            <div class="recent-lists">
+              <h3 class="helpful-info__heading">Recent Lists</h3>
+              <div class="recent-lists__wrapper">
+                <div class="restaurants__col">
+              <div class="card__wrapper">
+                <div class="card__photo">
+                  <a href="javascript:void(0)" class="img-link"><img src="https://s3-media1.fl.yelpcdn.com/bphoto/YJNzdiGmf1tOXbJHa6qAOQ/l.jpg" alt="rest-photo" width="300px" height="180px"/></a>
+              </div>
+                <div class="restaurants-container">
+                <span class="restaurants__name"><a class="restaurants__name-link" href="javascript:void(0);">Credo</a></span>
+                <div class="restaurants__rating">
+                  <span class="restaurants__rating__star four-stars">Rating</span>
+                  <span class="review-counter">617 reviews</span>
+                </div>
+                <div class="restaurants-info">
+                  <span class="restaurants-info__cost">$$</span>
+                  <span class="restaurants-info__food">Italian, American (New), Bars</span>
+                </div>
+                <div class="restaurants-info__state">
+                      <span>San Francisco, CA</span>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="links-wrapper">
+          <span class="prev-reviews"><a href="javascript:void(0);">Read previous reviews</a></span>
+          <span class="more-lists"><a href="javascript:void(0);">Browse more lists</a></span>
+        </div>            
+        <!--   /helpful-info start's here -->
+        <!--   recent-activity start's here -->
+        <section class="recent-activity">
+          <div class="recent-activity__wrapper">
+            <div class="recent-activity__heading">
+              <h2>Recent Activity</h2>
+            </div>          
+            <div class="recent-activity__row">
+              <div class="recent-activity__col feedback">
+                <div class="img-container">
+                  <img src="https://s3-media1.fl.yelpcdn.com/photo/4Z4gf-FjMiANLWuwKn9hMw/30s.jpg" alt="profile-icon"/>
+                </div>
+                <div class="caption-wrapper">
+                  <span class="recent-activity__name"><a href="javascript:void(0);">Fred N.</a></span>
+                  <span class="recent-activity__caption">Wrote a review</span>
+                </div>
+                <a href="javascript:void(0);"><img src="https://s3-media4.fl.yelpcdn.com/bphoto/u3WfxOE1DKuAENePexRmXg/l.jpg" alt="rest-photo" width="298.98px" height="115px"/></a>
+                <h3 class="recent-activity__heading"><a href="javascript:void(0);">Stay Gold Deli</a></h3>
+                <span class="break-line">1</span>
+                <div class="restaurants__rating">
+                  <div class="restaurants__rating__star five-stars">Rating</div>
+                </div>
+                <p>
+                  I was pretty disappointed and perplexed by my experience here. 
+                  I was assured by the counter person that my order was plenty 
+                  for 2, which it wasn't. Why he would down-sell 
+                  me is a...
+                  <a href="javascript:void(0);">Countinue reading</a>
+                </p>
+                <div class="recent-activity__reaction">
+                  <a href="javascript:void(0);" class="reaction-item useful">Useful</a>
+                  <a href="javascript:void(0);" class="reaction-item funny">Funny</a>
+                  <a href="javascript:void(0);" class="reaction-item cool">Cool</a>
+                  <a href="javascript:void(0);" class="reaction-item compliment">Send a Compliment</a>
+                </div>
+              </div>
+              <div class="recent-activity__col feedback">
+                <div class="img-container">
+                  <img src="https://s3-media4.fl.yelpcdn.com/photo/1zkoXmy4o3eFd3_-LBBAmw/30s.jpg" alt="profile-icon"/>
+                </div>
+                <div class="caption-wrapper">
+                  <span class="recent-activity__name"><a href="javascript:void(0);">Tiffany L.</a></span>
+                  <span class="recent-activity__caption">Wrote a review</span>
+                </div>
+                <a href="javascript:void(0);"><img src="https://s3-media1.fl.yelpcdn.com/bphoto/w4gi1l9hQluP6CbFMwdRVQ/l.jpg" alt="rest-photo" width="298.98px" height="115px"/></a>
+                <h3 class="recent-activity__heading"><a href="javascript:void(0);">Maven Recruiting Group</a></h3>
+                <span class="break-line">1</span>
+                <div class="restaurants__rating">
+                  <div class="restaurants__rating__star five-stars">Rating</div>
+                </div>
+                <p>
+                  I rarely write Yelp bad reviews but I felt this experience 
+                  really warranted one. I went to Maven back in November when 
+                  I was first beginning my career change (I was mainly looking 
+                  for...
+                  <a href="javascript:void(0);">Countinue reading</a>
+                </p>
+                <div class="recent-activity__reaction">
+                  <a href="javascript:void(0);" class="reaction-item useful">Useful</a>
+                  <a href="javascript:void(0);" class="reaction-item funny">Funny</a>
+                  <a href="javascript:void(0);" class="reaction-item cool">Cool</a>
+                  <a href="javascript:void(0);" class="reaction-item compliment">Send a Compliment</a>
+                </div>
+              </div>
+              <div class="recent-activity__col photocheck">
+                <div class="img-container">
+                  <img src="https://s3-media3.fl.yelpcdn.com/photo/5L-e8XbeEFMftdS8F08QYQ/30s.jpg" alt="profile-icon" />
+                </div>
+                <div class="caption-wrapper">
+                  <span class="recent-activity__name"><a href="javascript:void(0);">Rose A.</a></span>
+                  <span class="recent-activity__caption">Added 1 photo</span>
+                </div>
+                <h3 class="recent-activity__heading"><a href="javascript.void(0);">STEEP Creamery & Tea</a></h3>
+                <a href="javascript:void(0);"><img src="https://s3-media1.fl.yelpcdn.com/bphoto/zUsyLfHorJLm5Jq3VB5nvg/300s.jpg" alt="photo check" width="300px" height="300px"/></a>
+                <a href="javascript:void(0);" class="recent-activity__likes facebook">
+                  <span class="recent-activity__likes fb-img-like"></span>
+                  <span class="recent-activity__likes text-like">Like</span>
+                </a>
+              </div>
+            </div>
+            <div class="recent-activity__row">
+              <div class="recent-activity__col photocheck">
+                <div class="img-container">
+                  <img src="https://s3-media3.fl.yelpcdn.com/photo/5L-e8XbeEFMftdS8F08QYQ/30s.jpg" alt="profile-icon" />
+                </div>
+                <div class="caption-wrapper">
+                  <span class="recent-activity__name"><a href="javascript:void(0);">Rose A.</a></span>
+                  <span class="recent-activity__caption">Added 1 photo</span>
+                </div>
+                <h3 class="recent-activity__heading"><a href="javascript.void(0);">STEEP Creamery & Tea</a></h3>
+                <a href="javascript:void(0);"><img src="https://s3-media1.fl.yelpcdn.com/bphoto/zUsyLfHorJLm5Jq3VB5nvg/300s.jpg" alt="photo check" width="300px" height="300px"/></a>
+                <a href="javascript:void(0);" class="recent-activity__likes facebook">
+                  <span class="recent-activity__likes fb-img-like"></span>
+                  <span class="recent-activity__likes text-like">Like</span>
+                </a>
+              </div>
+              <div class="recent-activity__col photocheck">
+                <div class="img-container">
+                  <img src="https://s3-media1.fl.yelpcdn.com/photo/jC2fUCi1BYXSNY7d3rHehw/30s.jpg" alt="profile-icon" />
+                </div>
+                <div class="caption-wrapper">
+                  <span class="recent-activity__name"><a href="javascript:void(0);">Kimberly H.</a></span>
+                  <span class="recent-activity__caption">Added 4 photo</span>
+                </div>
+                <h3 class="recent-activity__heading"><a href="javascript.void(0);">Hopwater Distribution</a></h3>
+                <div class="photo-wrapper">
+                  <div class="photo-block">
+                    <a href="javascript:void(0);"><img src="https://s3-media1.fl.yelpcdn.com/bphoto/QfYyLZZjVqaB1flrQRdJkg/300s.jpg" alt="photo check" width="286px" height="150px"/></a>
+                    <a href="javascript:void(0);" class="recent-activity__likes facebook">
+                      <span class="recent-activity__likes fb-img-like"></span>
+                      <span class="recent-activity__likes text-like">Like</span>
+                    </a>
+                  </div>
+                  <span class="sub-wrapper">
+                    <a href="javascript:void(0);"><img src="https://s3-media4.fl.yelpcdn.com/bphoto/ogzh3BM-CC0hP5tj961T1Q/168s.jpg" alt="photo check" width="139px" height="132px"/></a>
+                    <a href="javascript:void(0);" class="recent-activity__likes facebook">
+                      <span class="recent-activity__likes fb-img-like"></span>
+                      <span class="recent-activity__likes text-like">Like</span>
+                    </a>
+                  </span>
+                  <span class="sub-wrapper">  
+                    <a href="javascript:void(0);"><img src="https://s3-media2.fl.yelpcdn.com/bphoto/hhrUTQ7ksLCrAXKk__VL1g/168s.jpg" alt="photo check" width="139px" height="132px"/></a>
+                    <a href="javascript:void(0);" class="recent-activity__likes facebook">
+                      <span class="recent-activity__likes fb-img-like"></span>
+                      <span class="recent-activity__likes text-like">Like</span>
+                    </a>
+                  </span>
+                </div>
+                <a class="more-photo" href="javascript:void(0);">Show all 4 photos</a>
+              </div>
+              <div class="recent-activity__col feedback">
+                <div class="img-container">
+                  <img src="https://s3-media1.fl.yelpcdn.com/photo/hQ8pZIyjDNU4XY7lQriTTQ/30s.jpg" alt="profile-icon"/>
+                </div>
+                <div class="caption-wrapper">
+                  <span class="recent-activity__name"><a href="javascript:void(0);">Kim S.</a></span>
+                  <span class="recent-activity__caption">Wrote a review</span>
+                </div>
+                <a href="javascript:void(0);"><img src="https://s3-media2.fl.yelpcdn.com/bphoto/ZrLFnrmBJtXzz59tp83vtg/l.jpg" alt="rest-photo" width="298.98px" height="115px"/></a>
+                <h3 class="recent-activity__heading"><a href="javascript.void(0);">Central Kitchen</a></h3>
+                <span class="break-line">1</span>
+                <div class="restaurants__rating">
+                  <div class="restaurants__rating__star five-stars">Rating</div>
+                </div>
+                <p>
+                  Underrated and under-the-radar Mission restaurant 
+                  that has pleased me well on each  of my 3 visits. 
+                  The wine list is excellent, the food is spot-on, 
+                  and the chocolate custard that's a...
+                  <a href="javascript:void(0);">Countinue reading</a>
+                </p>
+                <div class="recent-activity__reaction">
+                  <a href="javascript:void(0);" class="reaction-item useful">Useful</a>
+                  <a href="javascript:void(0);" class="reaction-item funny">Funny</a>
+                  <a href="javascript:void(0);" class="reaction-item cool">Cool</a>
+                  <a href="javascript:void(0);" class="reaction-item compliment">Send a Compliment</a>
+                </div>
+              </div>
+            </div>
+            <div class="recent-activity__row">
+              <div class="recent-activity__col feedback">
+                <div class="img-container">
+                  <img src="https://s3-media1.fl.yelpcdn.com/photo/jC2fUCi1BYXSNY7d3rHehw/30s.jpg" alt="profile-icon"/>
+                </div>
+                <div class="caption-wrapper">
+                  <span class="recent-activity__name"><a href="javascript:void(0);">Lara C.</a></span>
+                  <span class="recent-activity__caption">Wrote a review</span>
+                </div>
+                <a href="javascript:void(0);"><img src="https://s3-media2.fl.yelpcdn.com/bphoto/RLiIhIbsrPkl_kl9bwfQUA/l.jpg" alt="rest-photo" width="298.98px" height="115px"/></a>
+                <h3 class="recent-activity__heading"><a href="javascript.void(0);">The Saratoga</a></h3>
+                <span class="break-line">1</span>
+                <div class="restaurants__rating">
+                  <div class="restaurants__rating__star four-stars">Rating</div>
+                </div>
+                <p>
+                  Michele was super fun and oh so smooth with his 
+                  service, and he wasn't even our server. The table 
+                  next to us got that honor. They utilized the space 
+                  very well, with a bar and...
+                  <a href="javascript:void(0);">Countinue reading</a>
+                </p>
+                <div class="recent-activity__reaction">
+                  <a href="javascript:void(0);" class="reaction-item useful">Useful</a>
+                  <a href="javascript:void(0);" class="reaction-item funny">Funny</a>
+                  <a href="javascript:void(0);" class="reaction-item cool">Cool</a>
+                  <a href="javascript:void(0);" class="reaction-item compliment">Send a Compliment</a>
+                </div>
+              </div>
+              <div class="recent-activity__col feedback">
+                <div class="img-container">
+                  <img src="https://s3-media3.fl.yelpcdn.com/photo/bjuY1_i0D0qp2QKhkZUSqg/30s.jpg" alt="profile-icon"/>
+                </div>
+                <div class="caption-wrapper">
+                  <span class="recent-activity__name"><a href="javascript:void(0);">Anastasia J.</a></span>
+                  <span class="recent-activity__caption">Wrote a review</span>
+                </div>
+                <a href="javascript:void(0);"><img src="https://s3-media1.fl.yelpcdn.com/bphoto/ap8pJHLFERs3Y3xznecMAg/l.jpg" alt="rest-photo" width="298.98px" height="115px"/></a>
+                <h3 class="recent-activity__heading"><a href="javascript.void(0);">The Saratoga</a></h3>
+                <span class="break-line">1</span>
+                <div class="restaurants__rating">
+                  <div class="restaurants__rating__star four-stars">Rating</div>
+                </div>
+                <p>
+                  Great place to meet friends, however there will always be a wait. 
+                  No reservations. Also the seating is incredibly uncomfortable. 
+                  The cheese dip is incredible as are the fish tacos.
+                </p>
+                <div class="recent-activity__reaction">
+                  <a href="javascript:void(0);" class="reaction-item useful">Useful</a>
+                  <a href="javascript:void(0);" class="reaction-item funny">Funny</a>
+                  <a href="javascript:void(0);" class="reaction-item cool">Cool</a>
+                  <a href="javascript:void(0);" class="reaction-item compliment">Send a Compliment</a>
+                </div>
+              </div>
+              <div class="recent-activity__col photocheck">
+                <div class="img-container">
+                  <img src="https://s3-media3.fl.yelpcdn.com/photo/kNigT3EpxPhc9FS11H_joA/30s.jpg" alt="profile-icon" />
+                </div>
+                <div class="caption-wrapper">
+                  <span class="recent-activity__name"><a href="javascript:void(0);">Stefanie W.</a></span>
+                  <span class="recent-activity__caption">Added 1 photo</span>
+                </div>
+                <h3 class="recent-activity__heading"><a href="javascript.void(0);">The Banked Bear - Custom Ice Cream Sandwiches</a></h3>
+                <a href="javascript:void(0);"><img src="https://s3-media3.fl.yelpcdn.com/bphoto/eRBr_h_2U0mrR6sMe-ChLg/300s.jpg" alt="photo check" width="300px" height="300px"/></a>
+                <a href="javascript:void(0);" class="recent-activity__likes facebook">
+                  <span class="recent-activity__likes fb-img-like"></span>
+                  <span class="recent-activity__likes text-like">Like</span>
+                </a>
+              </div>
+            </div>
+            <div class="recent-activity__row">
+              <div class="recent-activity__col photocheck">
+                <div class="img-container">
+                  <img src="https://s3-media1.fl.yelpcdn.com/photo/jC2fUCi1BYXSNY7d3rHehw/30s.jpg" alt="profile-icon" />
+                </div>
+                <div class="caption-wrapper">
+                  <span class="recent-activity__name"><a href="javascript:void(0);">Kimberly H.</a></span>
+                  <span class="recent-activity__caption">Added 12 photos</span>
+                </div>
+                <h3 class="recent-activity__heading"><a href="javascript.void(0);">The Saratoga</a></h3>
+                <div class="photo-wrapper">
+                  <div class="photo-block">
+                    <a href="javascript:void(0);"><img src="https://s3-media2.fl.yelpcdn.com/bphoto/29Gu25g4QAmvlk8w7-2F6A/300s.jpg" alt="photo check" width="300px" height="300px"/></a>
+                    <a href="javascript:void(0);" class="recent-activity__likes facebook">
+                      <span class="recent-activity__likes fb-img-like"></span>
+                      <span class="recent-activity__likes text-like">Like</span>
+                    </a>
+                  </div>
+                  <span class="sub-wrapper">
+                    <a href="javascript:void(0);"><img src="https://s3-media3.fl.yelpcdn.com/bphoto/IZbLKEuFzjKQ1n7uD_77VQ/168s.jpg" alt="photo check" width="139px" height="132px"/></a>
+                    <a href="javascript:void(0);" class="recent-activity__likes facebook">
+                      <span class="recent-activity__likes fb-img-like"></span>
+                      <span class="recent-activity__likes text-like">Like</span>
+                    </a>
+                  </span>
+                  <span class="sub-wrapper">
+                    <a href="javascript:void(0);"><img src="https://s3-media4.fl.yelpcdn.com/bphoto/sivlMRSMqYCyylr6g1P7YA/168s.jpg" alt="photo check" width="139px" height="132px"/></a>
+                    <a href="javascript:void(0);" class="recent-activity__likes facebook">
+                      <span class="recent-activity__likes fb-img-like"></span>
+                      <span class="recent-activity__likes text-like">Like</span>
+                    </a>
+                  </span>
+                </div>
+                <a class="more-photo" href="javascript:void(0);">Show all 12 photos</a>
+              </div>
+              <div class="recent-activity__col feedback">
+                <div class="img-container">
+                  <img src="https://s3-media1.fl.yelpcdn.com/photo/iJacfnOUeR7HmZZ3XhPWZg/30s.jpg" alt="profile-icon"/>
+                </div>
+                <div class="caption-wrapper">
+                  <span class="recent-activity__name"><a href="javascript:void(0);">Gabriela W.</a></span>
+                  <span class="recent-activity__caption">Wrote a review</span>
+                </div>
+                <a href="javascript:void(0);"><img src="https://s3-media3.fl.yelpcdn.com/bphoto/SChIQKohRU7d0canWJ_3ZQ/l.jpg" alt="rest-photo" width="298.98px" height="115px"/></a>
+                <h3 class="recent-activity__heading"><a href="javascript.void(0);">Firepie</a></h3>
+                <span class="break-line">1</span>
+                <div class="restaurants__rating">
+                  <div class="restaurants__rating__star five-stars">Rating</div>
+                </div>
+                <p>
+                  Artisanal crust, fresh a** toppings, arrived within 30 minutes, 
+                  watched a basketball game as I chowed down, so yummy. Tummy 
+                  satisfied. Will mama do it again? Hell yaaaaaaa!
+                </p>
+                <div class="recent-activity__reaction">
+                  <a href="javascript:void(0);" class="reaction-item useful">Useful</a>
+                  <a href="javascript:void(0);" class="reaction-item funny">Funny</a>
+                  <a href="javascript:void(0);" class="reaction-item cool">Cool</a>
+                  <a href="javascript:void(0);" class="reaction-item compliment">Send a Compliment</a>
+                </div>
+              </div>
+              <div class="recent-activity__col feedback">
+                <div class="img-container">
+                  <img src="https://s3-media1.fl.yelpcdn.com/photo/iJacfnOUeR7HmZZ3XhPWZg/30s.jpg" alt="profile-icon"/>
+                </div>
+                <div class="caption-wrapper">
+                  <span class="recent-activity__name"><a href="javascript:void(0);">Jane W.</a></span>
+                  <span class="recent-activity__caption">Wrote a review</span>
+                </div>
+                <a href="javascript:void(0);"><img src="https://s3-media1.fl.yelpcdn.com/bphoto/80pWTNJjPkPJ1Cq_tLiaBg/l.jpg" alt="rest-photo" width="298.98px" height="115px"/></a>
+                <h3 class="recent-activity__heading"><a href="javascript.void(0);">Air Flow Pros Heating And Air Condition</a></h3>
+                <span class="break-line">1</span>
+                <div class="restaurants__rating">
+                  <div class="restaurants__rating__star five-stars">Rating</div>
+                </div>
+                <p>
+                  Rudy is so nice, knowledgeable, patient, and honest. 
+                  He came by to give us a bid, assessed our heating ducts,
+                  advised us. Second time, he changed out our furnace filter,
+                  sealed up any holes around t...
+                </p>
+                <a href="javascript:void(0);">Continue reading</a>
+                <div class="recent-activity__reaction">
+                  <a href="javascript:void(0);" class="reaction-item useful">Useful</a>
+                  <a href="javascript:void(0);" class="reaction-item funny">Funny</a>
+                  <a href="javascript:void(0);" class="reaction-item cool">Cool</a>
+                  <a href="javascript:void(0);" class="reaction-item compliment">Send a Compliment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--   /recent-activity end's here -->
+        <div class="show-more-wrapper">
+          <div class="show-more">
+            <a href="javascript:void(0);">Show more activity in San Francisco</a>
+          </div>
+        </div>
+        <!--   mobile-apps start's here -->
+        <section class="mobile-apps">
+          <div class="mobile-apps__wrapper">
+            <h2 class="mobile-apps__heading">Yelp Mobile Apps</h2>
+            <a class="mobile-apps__link left-col" href="javascript:void(0);">
+              <div class="mobile-apps__os iOS">
+                <span>iPhone, iPad and  Watch</span>
+                <img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_styleguide/960cce5c1917/assets/img/app_pitch/pitch_ios.png" alt="iPhone" width="264px" height="170px"/>
+              </div>
+            </a>
+            <a class="mobile-apps__link right-col" href="javascript:void(0);">
+              <div class="mobile-apps__os Android">
+                <span>Android</span>
+                <img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_styleguide/a91a4a087787/assets/img/app_pitch/pitch_android.png" alt="iPhone" width="264px" height="170px"/>
+              </div>
+            </a>
+          </div>
+        </section>
+        <!--   /mobile-apps end's here -->
+        
+      
+    </main>
+    <!--   /main-content end's here -->
+    <!--   footer start's here -->
+    <footer class="main-footer">
+      <section class="main-footer__wrapper">
+        <div class="main-footer__col about">
+          <span class="main-footer__heading">About</span>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="javascript:void(0);">About Yelp</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Order Food on Eat24</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Careers</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Press</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Investor Relations</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Content Guidelines</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Terms of Service</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Privacy Policy</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Ad Choices</a></li>
+          </ul>
+        </div>
+        <div class="main-footer__col discover">
+          <span class="main-footer__heading">Discover</span>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="javascript:void(0);">The Local Yelp</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Yelp Blog</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Support</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Yelp Mobile</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Developers</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">RSS</a></li>
+          </ul>
+        </div>
+        <div class="main-footer__col business-owners">
+          <span class="main-footer__heading">Yelp for Business Owners</span>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="javascript:void(0);">Claim your Business Page</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Advertise on Yelp</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Online Ordering from Eat24</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Yelp Reservations</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Business Support</a></li>
+            <li class="footer-list-item"><a href="javascript:void(0);">Yelp Blog for Business Owners</a></li>
+          </ul>
+        </div>
+        <div class="main-footer__col region">
+          <h2 class="main-footer__heading">Languages</h2>
+          <ul class="languages-list">
+            <li class="languages-list__item title">
+              English
+              <ul class="languages-sublist">
+                <li class="languages-sublist__item">Russian (Russia)</li>
+                <li class="languages-sublist__item">Suomi (Finland)</li>
+                <li class="languages-sublist__item">Polski (Poland)</li>
+                <li class="languages-sublist__item">italiano (Italia)</li>
+                <li class="languages-sublist__item">Spanish (Spain)</li>
+              </ul>
+            </li>
+          </ul>
+          <h2 class="region-title">Countries</h2>
+          <ul class="countries-list">
+            <li class="countries-list__item title">
+              United States
+              <ul class="countries-sublist">
+                <li class="countries-sublist__item">Russia</li>
+                <li class="countries-sublist__item">Findland</li>
+                <li class="countries-sublist__item">Poland</li>
+                <li class="countries-sublist__item">Italia</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <small class="copyright">
+        <div class="copyright__img-block">
+          <img src="https://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_styleguide/573fa19c8435/assets/img/structural/footer_cityscape.png" alt="footer img" />
+        </div>
+        <div class="copyright__text">
+          Copyright © 2004-2017 Yelp Inc. 
+          Yelp and related marks are 
+          registered trademarks of Yelp.
+        </div>
+      </small>
+    </footer>
+    <!--   /footer end's here -->
+  </body>
+</html>
